@@ -4,7 +4,6 @@ import 'package:hacker_news_mobx/news_widgets.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HackerNewsExample(),
+      home: HackerNewsExample()
     );
   }
 }
